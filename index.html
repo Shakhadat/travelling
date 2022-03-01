@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Volkhov:wght@700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap");
+    </style>
+    <title>Sass 1 project</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="img/Decore.png" alt="fon" id="fon" />
+      <div class="container">
+        <p id="myname">maket figma for portfulo Omanova</p>
+
+        <div class="nav">
+          <div class="logo">
+            <img src="img/Logo.png" alt="logo" />
+          </div>
+          <ul>
+            <li>Destination</li>
+            <li>Hotels</li>
+            <li>Flight</li>
+            <li>Booking</li>
+            <li>Login</li>
+            <li><button id="nav-btn">Sign up</button></li>
+            <li>
+              <select name="language" id="lang">
+                <option value="EN">EN</option>
+                <option value="UZ">UZ</option>
+                <option value="RU">RU</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+        <div class="headcontent">
+          <div class="textcontent">
+            <img src="img/Decore2.png" alt="dekor" id="tagdek" />
+            <h4>best destinations arund the world</h4>
+            <h1>Travel, enjoy and live a new and full life</h1>
+            <p>
+              Built Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Anim i molestias recusandae cum quisquam exercitatio nem adipisci
+              ratione aliquam, beatae alias quam!
+            </p>
+            <div class="headcaption">
+              <button id="headbtn">Find out more</button>
+
+              <div id="secondbtn">
+                <div id="round">
+                  <div id="rec"></div>
+                </div>
+                <p>Play Demo</p>
+              </div>
+            </div>
+          </div>
+          <div class="travelpicture">
+            <img src="img/Traveller 1.png" alt="travel" id="girl" />
+            <img src="img/samalyot.png" alt="pilot" id="leftpilot" />
+            <img src="img/samalyot.png" alt="pilot" id="rightpilot" />
+          </div>
+        </div>
+        <div class="services">
+          <h4>category</h4>
+          <h1>we offer best sercices</h1>
+          <img src="img/pluses.png" alt="plus" id="plus" />
+          <div class="typeservice">
+            <div class="box">
+              <img src="img/Group 48.png" alt="settile" id="serv1" />
+              <h5>Calculate Weather</h5>
+              <p>Lorem ipsum consectetur ad sed labo perferendis enim?</p>
+            </div>
+            <div class="box">
+              <!-- <div class="rectangle"></div> -->
+              <img src="img/pilotbg.png" alt="settile" id="serv2" />
+              <h5>Best Flights</h5>
+              <p>Lorem ipsum consectetur ad sed labo perferendis enim?</p>
+            </div>
+            <div class="box">
+              <img src="img/Group 50.png" alt="settile" id="serv3" />
+              <h5>Local Events</h5>
+              <p>Lorem ipsum consectetur ad sed labo perferendis enim?</p>
+            </div>
+            <div class="box">
+              <img src="img/Group 49.png" alt="settile" id="serv4" />
+              <h5>Customization</h5>
+              <p>Lorem ipsum consectetur ad sed labo perferendis enim?</p>
+            </div>
+          </div>
+        </div>
+        <div class="destinations">
+          <p>top selling</p>
+          <h4>top destinations</h4>
+          <img src="img/spiral.png" alt="purjina" id="purjina" />
+          <div class="imgdestinations">
+            <div class="dest">
+              <img src="img/clipped1.png" alt="dest" />
+              <div class="imgcaption">
+                <ul>
+                  <li>Rome, Italy</li>
+                  <li>$5.42k</li>
+                </ul>
+                <p><ion-icon name="navigate"></ion-icon> 10 days trip</p>
+              </div>
+            </div>
+
+            <div class="dest">
+              <img src="img/clipped2.jpg" alt="dest" />
+              <div class="imgcaption">
+                <ul>
+                  <li>London, UK</li>
+                  <li>$4.2k</li>
+                </ul>
+                <p><ion-icon name="navigate"></ion-icon> 12 days trip</p>
+              </div>
+            </div>
+
+            <div class="dest">
+              <img src="img/clipped3.png" alt="dest" />
+
+              <div class="imgcaption">
+                <ul>
+                  <li>Full Europe</li>
+                  <li>$15k</li>
+                </ul>
+                <p><ion-icon name="navigate"></ion-icon> 28 days trip</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="booktrip">
+          <div class="section1">
+            <p>Easy and Fast</p>
+            <h1>Book your next trip in 3 easy steps</h1>
+            <div class="steps">
+              <div class="trip">
+                <span id="step1"><img src="img/step1.png" alt="" /></span>
+                <p>
+                  <b>Choose Destination</b><br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="steps">
+              <div class="trip">
+                <span id="step2"><img src="img/step2.png" alt="" /></span>
+                <p>
+                  <b>Make Payment</b><br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="steps">
+              <div class="trip">
+                <span id="step3"><img src="img/step3.png" alt="" /></span>
+                <p>
+                  <b>Reach Airport on Selection Date</b><br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section2">
+            <div class="blur"></div>
+            <div class="imgcard">
+              <img src="img/screenimg.jpg" alt="xxx" id="screenimg" />
+              <h5>Trip To Greece</h5>
+              <p>14-16 June <span id="line"></span> by Roben Jhon</p>
+              <ul>
+                <li>
+                  <button><img src="img/leaf 1.png" alt="dd" /></button>
+                </li>
+                <li>
+                  <button><img src="img/map 1.png" alt="ddd" /></button>
+                </li>
+                <li>
+                  <button><img src="img/send 2.png" alt="dd" /></button>
+                </li>
+              </ul>
+              <p>
+                <span><img src="img/personnumber.png" alt="ppp" /></span>24
+                people going
+                <span><ion-icon name="heart-outline"></ion-icon></span>
+              </p>
+            </div>
+            <div class="messege">
+              <div class="innermessege">
+                <div class="personal">
+                  <img src="img/Mask Group.png" alt="" />
+                </div>
+                <div class="personalcontent">
+                  <p>Ongoing</p>
+                  <h5>Trip to Rome</h5>
+                  <h6><span>40%</span>completed</h6>
+                  <div class="proccess">
+                    <div class="colorproccess"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonals">
+          <div class="tiletestimol">
+            <p>testimonals</p>
+            <h1>What people say about us.</h1>
+            <div class="sliderbtn">
+              <button class="round" onclick="currentSlide(1)"></button>
+              <button class="round active" onclick="currentSlide(2)"></button>
+              <button class="round" onclick="currentSlide(3)"></button>
+            </div>
+          </div>
+          <div class="caruselcontent slideshow-container">
+            <div class="mySlides fade">
+              <div class="shadowbox">
+                <h2>Chris Thomas</h2>
+                <p>CEO of Red Button</p>
+              </div>
+
+              <div class="emailsend">
+                <div class="topimg">
+                  <img src="img/roundface.png" />
+                </div>
+                <blockquote>
+                  “On the Windows talking painted pasture yet its express
+                  parties use. Sure last upon he same as knew next. Of believed
+                  or diverted no.”
+                </blockquote>
+
+                <h2>Mike taylor</h2>
+                <p>Lahore, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="shadowbox">
+                <h2>Katrine kayf</h2>
+                <p>CEO of Pink Button</p>
+              </div>
+              <div class="emailsend">
+                <div class="topimg">
+                  <img src="img/student2.png" />
+                </div>
+                <blockquote>
+                  “On the Windows talking painted pasture yet its express
+                  parties use. Sure last upon he same as knew next. Of believed
+                  or diverted no.”
+                </blockquote>
+
+                <h2>Mike taylor</h2>
+                <p>Lahore, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="shadowbox">
+                <h2>Katrine kayf</h2>
+                <p>CEO of Pink Button</p>
+              </div>
+              <div class="emailsend">
+                <div class="topimg"><img src="img/student3.png" /></div>
+                <blockquote>
+                  “On the Windows talking painted pasture yet its express
+                  parties use. Sure last upon he same as knew next. Of believed
+                  or diverted no.”
+                </blockquote>
+
+                <h2>Mike taylor</h2>
+                <p>Lahore, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="navigation">
+              <span>
+                <ion-icon
+                  class="prev"
+                  onclick="plusSlides(-1)"
+                  name="chevron-up-outline"
+                ></ion-icon>
+              </span>
+              <br />
+              <span>
+                <ion-icon
+                  class="next"
+                  onclick="plusSlides(1)"
+                  name="chevron-down-outline"
+                  id="active"
+                ></ion-icon>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="brands">
+          <div class="br1"><img src="img/brand1.png" /></div>
+          <div class="br1"><img src="img/brand2.png" /></div>
+          <div class="br1"><img src="img/brand3.png" /></div>
+          <div class="br1"><img src="img/brand4.png" /></div>
+          <div class="br1"><img src="img/brand5.png" /></div>
+        </div>
+
+        <div class="messenger">
+          <div class="bluecontent">
+            <img src="img/Group 42.png" id="leftsprl" alt="spiral" />
+            <img src="img/Group 42.png" id="rightsprl" alt="spiral" />
+            <h1>
+              Subscribe to get information, latest news and other interesting
+              offers about Cobham
+            </h1>
+            <form action="pdp.uz">
+              <div class="input-icon">
+                <ion-icon name="mail-outline" class="icon"></ion-icon>
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  class="input-field"
+                />
+              </div>
+
+              <input type="submit" value="Subscribe" id="mailbtn" />
+            </form>
+          </div>
+        </div>
+        <div class="footer">
+          <ul>
+            <li>
+              <h1>Jadoo.</h1>
+            </li>
+            <li>
+              <p>your trip in minute, get full Control for much longer.</p>
+            </li>
+          </ul>
+          <ul>
+            <li><b>Company</b></li>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Mobile</li>
+          </ul>
+          <ul>
+            <li><b>Contact</b></li>
+            <li>Help/FAQ</li>
+            <li>Press</li>
+            <li>Affilates</li>
+          </ul>
+          <ul>
+            <li><b>More</b></li>
+            <li>Airlinefees</li>
+            <li>Airline</li>
+            <li>Low fare tips</li>
+          </ul>
+          <ul>
+            <li>
+              <button><img src="img/Facebook Icon (1).png" /></button>
+              <button id="instg">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </button>
+              <button><ion-icon name="logo-twitter"></ion-icon></button>
+            </li>
+            <li>Discover our app</li>
+            <li>
+              <button class="blk">
+                <img src="img/google-play 1.png" alt="sss" />
+                <img src="img/playtext.png" alt="ddd" />
+              </button>
+              <button class="blk">
+                <img src="img/apple.png" alt="sss" />
+                <img src="img/appletext.png" alt="ddd" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <p id="copyright">All rights reserved@jadoo.co</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
